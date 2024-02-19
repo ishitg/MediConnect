@@ -1,5 +1,6 @@
 import express from "express";
 import bodyParser  from "body-parser";
+import axios from 'axios'
 
 const app = express();
 const port = 3000;
@@ -16,6 +17,16 @@ app.get("/login",(req,res)=>{
 })
 
 
+
+app.get("/hospitals",(req,res)=>{
+    axios.get('http://www.communitybenefitinsight.org/api/get_hospitals.php')
+    .then(response => {
+        res.render("hospitals.ejs",{hospData:response.data});
+    })
+    .catch(err => {
+        console.error(err);
+    });
+})
 
 
 
