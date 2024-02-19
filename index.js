@@ -14,7 +14,7 @@ app.get("/",(req,res)=>{
 
 app.get("/login",(req,res)=>{
     res.render("login.ejs");
-})
+});
 
 
 
@@ -26,11 +26,11 @@ app.get("/hospitals",(req,res)=>{
     .catch(err => {
         console.error(err);
     });
-})
-
+});
 
 
 
 app.listen(port,()=>{
     console.log(`Server running on port ${port}.`);
-})
+});
+
