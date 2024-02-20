@@ -92,3 +92,27 @@ const revealElementOnScroll = function () {
 window.addEventListener("scroll", revealElementOnScroll);
 
 window.addEventListener("load", revealElementOnScroll);
+
+const caps = document.querySelectorAll(".tom");
+const caps2 = document.querySelector(".tom1");
+const caps3 = document.querySelectorAll(".tick > span");
+let capper = ["Our vision is to be the leading provider of consultancy services in the world. We are committed to providing our clients with the highest quality of service, and we are constantly innovating to find new ways to improve our offerings.","Our mission is to help our clients achieve their goals. We are committed to providing them with the resources and support they need to succeed. We believe that everyone has the potential to achieve great things, and we are passionate about helping our clients reach their full potential.","Our strategy is to focus on our core competencies and to provide our clients with the best possible service. We are committed to continuous improvement, and we are always looking for new ways to improve our processes and our offerings. We believe that by focusing on our core competencies and by providing our clients with the best possible service, we will be able to achieve our vision of being the leading provider of consultancy services in the world."];
+
+let ticker = [["Innovative technology solutions.","Better future through technology.","Inspire and empower people.","Great place to work."],["Innovative technology solutions.","Best customer experience.","Positive impact on the world.","Responsible corporate citizen."],["Focus on core competencies.","Invest in research and development.","Strong partnerships.","Execute with excellence."]];
+
+
+caps.forEach((cap, index) => {
+    cap.addEventListener("click", () => {
+        caps.forEach((c, i) => {
+            if (i !== index) {
+                c.classList.remove("active");
+            }
+        });
+        cap.classList.toggle("active");
+        caps2.innerHTML = capper[index];
+        for(var t=0;t<4;t++)
+        {
+          caps3[t].innerHTML = ticker[index][t];
+        }
+    });
+});

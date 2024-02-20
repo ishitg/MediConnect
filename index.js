@@ -23,13 +23,16 @@ app.get("/home",(req,res)=>{
 
 app.get("/login",(req,res)=>{
     res.render("login.ejs");
-})
+});
 
 app.get("/hospitals",(req,res)=>{
     res.sendFile(path.join(__dirname, '/views/hospitals.html'))
-})
+});
 
+
+    
 
 app.listen(port,()=>{
     console.log(`Server running on port ${port}.`);
-})
+});
+
