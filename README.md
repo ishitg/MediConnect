@@ -11,6 +11,7 @@ Made using HTML,CSS,JS,Express.js,Node.js,EJS,Google Maps Platform, and bootstra
 5. There is not a database attached to the app, so everytime you restart the server, the list will reset.
 6. The Project isn't complete. We tried implementing google maps api platform into our project but it isn't exactly correct.
 7. The Make appointments functionality isn't completed yet. We'll be implementing it very soon.
+8. The blog website will take around 10secs to load when opening for the first time since it is being hosted on a free server.
 
 ## Setup : 
 Step by step by guide to run the server from the repository on your device.
