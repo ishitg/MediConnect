@@ -630,13 +630,46 @@
     padding: 50px 36px;
     border-radius: var(--radius-12);
     border: 2px solid var(--alice-blue);
-    background-image: url('../images/blog-card.jpg');
+    background-image: url('../images/fasting1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     overflow: hidden;
   }
   
+  .fasting{
+    padding: 50px 36px;
+    border-radius: var(--radius-12);
+    border: 2px solid var(--alice-blue);
+    background-image: url('../images/fasting1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .autonomy{
+    padding: 50px 36px;
+    border-radius: var(--radius-12);
+    border: 2px solid var(--alice-blue);
+    background-image: url('../images/autonomy.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .binge{
+    padding: 50px 36px;
+    border-radius: var(--radius-12);
+    border: 2px solid var(--alice-blue);
+    background-image: url('../images/liver1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+  }
+
   .blog-card::before,
   .blog-card::after {
     inset: 0;
@@ -1144,3 +1177,4 @@
     .contact-item { margin-block-start: 0; }
   
   }
+
