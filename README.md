@@ -4,7 +4,7 @@ A user-friendly web application to simplify healthcare appointments, information
 Made using HTML,CSS,JS,Express.js,Node.js,EJS,Google Maps Platform, and bootstrap for CSS.
 
 ## Functionality : 
-1.Appointment Booking: Streamlined scheduling for healthcare consultations.
+1. Appointment Booking: Streamlined scheduling for healthcare consultations.
 2. Health Information: Access to reliable medical resources and articles.
 3. Provider Search: Find doctors, specialists, and hospitals by location or specialty.
 4. Secure Messaging: (If applicable) HIPAA-compliant communication with providers.
