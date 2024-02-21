@@ -1,5 +1,6 @@
 # MediConnnect
 A user-friendly web application to simplify healthcare appointments, information, and resources. Developed for the Google Developer Solution Challenge 2023.
+
 Made using HTML,CSS,JS,Express.js,Node.js,EJS,Google Maps Platform, and bootstrap for CSS.
 
 ## Functionality : 
